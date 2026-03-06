@@ -1,1 +1,13 @@
-<p>pokemons works!</p>
+<h2>Les six premiers pokemons:</h2>
+<hr>
+<h3>Dans l'ordre du pokedex</h3>
+
+<div *ngFor="let pokemon of pokemons">
+    <h2>{{ pokemon.name }}</h2>
+    <ul>
+        <li>Catégorie : {{ pokemon.category }}</li>
+        <li>Type : {{ pokemon.type }}</li>
+        <li>Taille : {{ pokemon.taille }}</li>
+        <li>Poids : {{ pokemon.poids}}</li>
+    </ul>
+</div>
