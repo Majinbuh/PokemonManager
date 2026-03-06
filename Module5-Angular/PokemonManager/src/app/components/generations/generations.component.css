@@ -1,0 +1,11 @@
+li {
+    @apply text-xl font-bold font-sans text-gray-500 leading-tight p-3 text-left hover:bg-gray-500 hover:text-gray-800 w-44;
+}
+
+ul {
+    @apply size-auto list-none;
+}
+
+h2 {
+    @apply font-sans text-gray-500 leading-tight p-3 text-left hover:bg-gray-500;
+}
